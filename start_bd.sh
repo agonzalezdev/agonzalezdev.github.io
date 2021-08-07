@@ -1,0 +1,1 @@
+docker-compose -f ./docker/infra.yaml up --detach
