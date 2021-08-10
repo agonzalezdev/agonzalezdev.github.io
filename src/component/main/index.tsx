@@ -12,10 +12,11 @@ import { Button } from "../shared/button"
 
 const MainBlock = () => {
 
+  const [response, setResponse] = useState(null);
+
   return (
     <>
       <MainContainer>
-        <DynamicBackground />
         <MainBackground />
         <MainContent>
           <Grid container justify={"center"}>
@@ -29,10 +30,11 @@ const MainBlock = () => {
               showCursor={false}
             />
           </Title>
+          {/* <p>{response}: </p> */}
           <br />
           <Subtitle>
             <Typed
-              strings={["C# | .NET  | .NET Core | NodeJS", "React | Redux | TypeScript | Javascript", "Docker | Kubernetes | RabbitMQ ", "GIT | Jenkins | Redis", "Agile | Scrum | Kanban", "- Full Stack Developer -"]}
+              strings={["C# | .NET  | NodeJS", "React | TypeScript | Javascript", "Docker | Kubernetes | RabbitMQ ", "GIT | Jenkins | Redis", "Agile | Scrum | Kanban", "- Fullstack Developer -"]}
               typeSpeed={40}
               backSpeed={10}
             />

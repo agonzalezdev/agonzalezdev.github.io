@@ -42,7 +42,7 @@ export default () => {
               </div>
               <div className="section">
                 <div className="slide">
-                  <Section children={[]} {...StackData} ></Section>
+                  <Section {...StackData} ></Section>
                 </div>
               </div>
               <div className="section">
