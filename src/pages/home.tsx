@@ -11,6 +11,7 @@ import { Console } from 'console';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../app/store';
 import { increment, decrement, set } from "../redux/slide/slideReducer"
+import DynamicBackground from '../component/dynamicBackground';
 
 
 export default () => {
@@ -42,12 +43,14 @@ export default () => {
               </div>
               <div className="section">
                 <div className="slide">
+                  <DynamicBackground />
                   <Section {...StackData} ></Section>
                 </div>
               </div>
               <div className="section">
                 <Section {...CVData} >
-                  <Portfolio />
+
+                  {/* <Portfolio /> */}
                 </Section>
                 <button onClick={() => fullpageApi.moveTo(1, 0)}>
                   Move top
@@ -57,11 +60,6 @@ export default () => {
           );
         }}
       />
-
-
-
-
-
     </>
   )
 }

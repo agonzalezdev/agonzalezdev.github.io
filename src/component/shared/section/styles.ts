@@ -7,37 +7,28 @@ export const SectionContainer = styled.div<{id, lightBg}>`
     background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
 
     @media screen and (max-width: 768px){
-        padding: 100px 0;
+        padding: 50px 0;
     }
 `
 
 export const SectionWrapper = styled.div`
     display: grid;
     z-index: 1;
-    max-height: 100%;
     width: 100%;
-    max-width: 1100px;
+    max-width: 90vh;
     margin-right: auto;
     margin-left: auto;
-    padding: 0 24px;
     justify-content: center;
 `
 
-export const SectionRow = styled.div<{imgStart}>`
-    display: grid;
-    grid-auto-columns: minmax()(auto, 1fr);
+export const SectionRow = styled.div`
     align-items: center;
-    grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
-
-    @media screen and (max-width: 768px){
-        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1 col2'` : `'col1 col1' 'col2 col2'`)};
-    }
 `
 
-export const Column1 = styled.div`
+export const Column1 = styled.div<{fullWidth}>`
     margin-bottom: 15px;
     padding: 0 15px;
-    grid-area: col1
+    grid-area: ${({fullWidth}) => (fullWidth ? 'col1 col2' : 'col1')};
 `
 
 export const Column2 = styled.div`
@@ -50,11 +41,10 @@ export const TextWrapper = styled.div`
     max-width: 100%;
     padding-top: 0;
     padding-bottom: 60px;
-    padding-top: 12vh;
 `
 
 export const TopLine = styled.p`
-    color: #01bf71;
+    color: red;
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -68,7 +58,7 @@ export const Heading = styled.h1<{lightText}>`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: #01bf71;
+    color: red;
     letter-spacing: 1.4px;
     color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
     
@@ -78,8 +68,7 @@ export const Heading = styled.h1<{lightText}>`
 `
 
 export const Subtitle = styled.p<{darkText}>`
-    max-width: 440px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     font-size: 18px;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};

@@ -19,7 +19,7 @@ const MainBlock = () => {
       <MainContainer>
         <MainBackground />
         <MainContent>
-          <Grid container justify={"center"}>
+          <Grid container justifyContent={"center"}>
             <AvatarImg src={CVImg} alt="Alex González" />
           </Grid>
           <Title>

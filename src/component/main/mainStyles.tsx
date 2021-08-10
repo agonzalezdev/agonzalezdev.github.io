@@ -70,6 +70,8 @@ export const Subtitle = styled(Typography)`
   &&&{
     color: tomato;
     font-size:  1.9rem;
+    overflow: hidden; 
+    white-space: nowrap;
 
     @media screen and (max-width: 768px){
       font-size:  1.5rem;;

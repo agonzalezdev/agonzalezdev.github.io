@@ -3,11 +3,11 @@ import { Link as RouterLink } from "react-router-dom";
 import { MenuOpen } from "@material-ui/icons";
 
 export const Nav = styled.nav<{scrollNav}>`
-    background: ${({scrollNav}) => (scrollNav ? '#565656' : 'black')};
-    -webkit-transition: background-color 2s ease-out;
-    -moz-transition: background-color 2s ease-out;
-    -o-transition: background-color 2s ease-out;
-    transition: background-color 2s ease-out;
+    background: ${({scrollNav}) => (scrollNav ? 'transparent' : 'black')};
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
     height: 75px;
     display: flex;
     justify-content: center;
@@ -15,7 +15,6 @@ export const Nav = styled.nav<{scrollNav}>`
     font-size: 1rem;
     position: fixed;
     width: 100%;
-    opacity: 0.6;
     top: 0;
     z-index: 100;
 
@@ -44,7 +43,7 @@ export const NavLogo = styled(RouterLink)`
     color: #c50000;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     display: flex;
     align-items: center;
     margin-left: -8px;
@@ -92,6 +91,7 @@ export const NavLinks = styled.div`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+    font-size: 1.2rem;
 
     &.active {
         border-bottom: 4px solid red;

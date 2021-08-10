@@ -1,21 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.scss';
 import "@fontsource/roboto";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/home";
+import Navbar from "./component/navbar/index"
 
 function App() {
+
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleOpen = () => {
+    setIsOpen(!isOpen);
+  }
+
   return (
-    <>
-      {/* <DynamicBackground/> */}
-      {/* <AppRouter/> */}
-      <BrowserRouter>
+    <BrowserRouter>
+      {/* <Preloader load={load} /> */}
+      <div className="App">
         <Switch>
-          <Route path="/" component={Home} exact />
-          {/* <Route path="/stack" component={Portfolio} exact /> */}
+          <Route path="/" exact component={Home} />
+          {/* <Route path="/project" component={Projects} />
+          <Route path="/about" component={About} />
+          <Route path="/resume" component={Resume} /> */}
         </Switch>
-      </BrowserRouter>
-    </>
+        {/* <Footer /> */}
+      </div>
+    </BrowserRouter>
   );
 }
 

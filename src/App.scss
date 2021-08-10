@@ -1,15 +1,17 @@
 @import-normalize;
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 body {
   margin: 0;
-  font-family: "Roboto";
-  padding: 0;
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: black;
 }
 
 #tsparticles {
-  position: absolute !important;
-  left: 0;
-  top: 0;
+  position: fixed !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
   width: 100%;
   height: 100%;
 }

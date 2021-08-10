@@ -7,28 +7,31 @@ const MainSectionWrapper = styled.div`
     color: #fff
 `
 
-const Section = ({ id, lightBg, imgStart, topLine, headLine, description, alt, children, img = "", }) => {
+const Section = ({ id, lightBg, topLine, headLine, description, alt, children, img = undefined, }) => {
     return (
         <>
             <SectionContainer id={id} lightBg={lightBg}>
                 <SectionWrapper>
-                    <SectionRow imgStart={imgStart}>
-                        <Column1>
+                    <SectionRow >
+                        <Column1 fullWidth={img == undefined}>
                             <TextWrapper>
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={!lightBg}>{headLine}</Heading>
                                 <Subtitle darkText={lightBg}>{description}</Subtitle>
-                                <div> {children} </div>
+                                <div style={{ color: "black" }}> {children} </div>
                                 {/* <BtnWrap>
                             <Button></Button>
                         </BtnWrap> */}
                             </TextWrapper>
                         </Column1>
-                        <Column2>
-                            <ImgWrap>
-                                <Img src={img} alt={alt} />
-                            </ImgWrap>
-                        </Column2>
+                        {img != undefined ?
+                            <Column2 >
+                                <ImgWrap>
+                                    <Img src={img} alt={alt} />
+                                </ImgWrap>
+                            </Column2>
+                            : <></>
+                        }
                     </SectionRow>
                 </SectionWrapper>
             </SectionContainer>
