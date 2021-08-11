@@ -6,12 +6,17 @@ import { PortfolioSection, PortfolioPersonalData } from "./data"
 
 const PortfolioComponent = () => {
   return (
-    <ResumeCV
-      className="cv"
-      personalData={PortfolioPersonalData({ CVImg })}
-      sections={PortfolioSection}
-      branding={false}
-    />
+    <>
+    </>
+    // <ResumeCV
+    //   className="cv"
+    //   style={{ padding: 0 }}
+    //   a={"a"}
+    //   personalData={PortfolioPersonalData({ CVImg })}
+    //   sections={PortfolioSection}
+    //   branding={false}
+    // />
+
   );
 }
 

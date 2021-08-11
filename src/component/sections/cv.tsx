@@ -1,3 +1,6 @@
+import PortfolioComponent from "../portfolio";
+const template = require("../../resume.html");
+
 const CvData = {
     id: 'cv',
     lightBg: false,
@@ -8,7 +11,11 @@ const CvData = {
     imgStart: false,
     alt: 'cv',
     primary: false,
-    darkText: false
+    darkText: false,
+    children: (<>
+        <iframe src={template}></iframe>
+        {/* <PortfolioComponent /> */}
+    </>)
 }
 
 export default CvData;

@@ -18,7 +18,7 @@ const Section = ({ id, lightBg, topLine, headLine, description, alt, children, i
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={!lightBg}>{headLine}</Heading>
                                 <Subtitle darkText={lightBg}>{description}</Subtitle>
-                                <div style={{ color: "black" }}> {children} </div>
+                                {children}
                                 {/* <BtnWrap>
                             <Button></Button>
                         </BtnWrap> */}

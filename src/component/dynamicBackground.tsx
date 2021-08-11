@@ -8,20 +8,16 @@ export default () => {
     <Particles
       id="tsparticles"
       options={{
-        fpsLimit: 10,
+        fpsLimit: 30,
         fullScreen: { enable: false },
         pauseOnBlur: true,
         particles: {
           number: {
-            value: 160,
+            value: 150,
             density: {
               enable: true,
-              value_area: 300,
+              value_area: 400,
             },
-          },
-          line_linked: {
-            enable: false,
-            opacity: 0.03,
           },
           size: {
             value: 1,
@@ -34,7 +30,7 @@ export default () => {
             },
           },
         },
-        detectRetina: true,
+        detectRetina: false,
       }}
     />
   )

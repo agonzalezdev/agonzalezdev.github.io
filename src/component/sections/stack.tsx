@@ -16,64 +16,64 @@ import { GrGraphQl } from "react-icons/gr";
 
 const TechStacks = () => (
     <Grid container justifyContent="center" spacing={0}>
-        <StackItem xs={6} md={2} tooltip="Dotnet Framework">
+        <StackItem xs={6} md={3} tooltip="Dotnet Framework">
             <SiDotNet />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="NodeJS">
+        <StackItem xs={6} md={3} tooltip="NodeJS">
             <FaNode />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip=".NET CORE 2,3 & 5">
+        <StackItem xs={6} md={3} tooltip=".NET CORE 2,3 & 5">
             <DiDotnet />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="C# 6+">
+        <StackItem xs={6} md={3} tooltip="C# 6+">
             <SiCsharp />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="Javascript">
+        <StackItem xs={6} md={3} tooltip="Javascript">
             <IoLogoJavascript />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="TypeScript">
+        <StackItem xs={6} md={3} tooltip="TypeScript">
             <SiTypescript />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="ReactJS">
+        <StackItem xs={6} md={3} tooltip="ReactJS">
             <FaReact />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="Github, Gitlab">
+        <StackItem xs={6} md={3} tooltip="Github, Gitlab">
             <DiGit />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="Redis">
+        <StackItem xs={6} md={3} tooltip="Redis">
             <SiRedis />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="Docker, docker-compose with YAML">
+        <StackItem xs={6} md={3} tooltip="Docker, docker-compose with YAML">
             <FaDocker />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="Kubernetes">
+        <StackItem xs={6} md={3} tooltip="Kubernetes">
             <SiKubernetes />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="RabbitMQ ">
+        <StackItem xs={6} md={3} tooltip="RabbitMQ ">
             <SiRabbitmq />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="PostgreSQL">
+        <StackItem xs={6} md={3} tooltip="PostgreSQL">
             <SiPostgresql />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="MSSQL ">
+        <StackItem xs={6} md={3} tooltip="MSSQL ">
             <SiMicrosoftsqlserver />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="Jenkins ">
+        <StackItem xs={6} md={3} tooltip="Jenkins ">
             <FaJenkins />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="JSON ">
+        <StackItem xs={6} md={3} tooltip="JSON ">
             <SiJson />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="API Rest">
+        <StackItem xs={6} md={3} tooltip="API Rest">
             <AiOutlineApi />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="GraphQL ">
+        <StackItem xs={6} md={3} tooltip="GraphQL ">
             <GrGraphQl />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="Bash scripting ">
+        <StackItem xs={6} md={3} tooltip="Bash scripting ">
             <SiGnubash />
         </StackItem>
-        <StackItem xs={6} md={2} tooltip="NuGet">
+        <StackItem xs={6} md={3} tooltip="NuGet">
             <SiNuget />
         </StackItem>
     </Grid>

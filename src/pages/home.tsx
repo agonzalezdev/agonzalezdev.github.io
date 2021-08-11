@@ -12,6 +12,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../app/store';
 import { increment, decrement, set } from "../redux/slide/slideReducer"
 import DynamicBackground from '../component/dynamicBackground';
+import { Grid } from '@material-ui/core';
 
 
 export default () => {
@@ -48,10 +49,10 @@ export default () => {
                 </div>
               </div>
               <div className="section">
-                <Section {...CVData} >
-
-                  {/* <Portfolio /> */}
-                </Section>
+                <Grid container xs={12} justifyContent="center">
+                  <Section {...CVData} >
+                  </Section>
+                </Grid>
                 <button onClick={() => fullpageApi.moveTo(1, 0)}>
                   Move top
                     </button>

@@ -8,8 +8,6 @@ const GridStackItem = styled(Grid)`
     &&&{
         flex-grow: 0;
         display: flex;
-        max-width: 50%;
-        flex-basis: 50%;
         flex-direction: column;
         align-items: stretch;
     }
