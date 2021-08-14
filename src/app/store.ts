@@ -1,9 +1,9 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import slideReducer from '../redux/slide/slideReducer';
+import loadingReducer from '../redux/slide/loadingReducer';
 
 export const store = configureStore({
   reducer: {
-    slide: slideReducer,
+    loading: loadingReducer,
   },
 });
 
