@@ -17,11 +17,8 @@ const LeftBar = () => (
         </LeftBarHomeButton>
         <Divider />
         <FeaturedStack>
-            <FeaturedStackItem tooltip={"Dotnet"}>
+            <FeaturedStackItem tooltip=".NET & .NET Core 3+">
                 <SiDotNet />
-            </FeaturedStackItem>
-            <FeaturedStackItem tooltip=".NET Core 3+">
-                <DiDotnet />
             </FeaturedStackItem>
             <FeaturedStackItem tooltip="C#">
                 <SiCsharp />

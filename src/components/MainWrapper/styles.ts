@@ -19,7 +19,7 @@ export const AvatarImg = withTheme(styled(Avatar)`
 `)
 
 export const MainContainer = styled(Box)`
-  height: 94vh;
+  height: 100vh;
   background: ${BackgroundColor};
   position: absolute;
   -webkit-background-size: cover;
@@ -34,20 +34,18 @@ export const MainContainer = styled(Box)`
   z-index: 1;
 
   @media (max-width: ${768}px) {
-      padding: 0 15px 0 65px;
+      padding: 0;
   } 
 `
 
 
 export const MainContent = styled.div`
-  position: absolute;
   z-index: 3;
   max-width: 1200px;
   padding: 8px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 25%;
   @media (max-width: ${768}px) {
     top: 20%;
   } 
@@ -57,7 +55,7 @@ export const Title = styled(Typography)`
   &&&{
     color: #c2c2c2;
     margin-bottom: -1.8rem;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
 
     @media (max-width: 768px){
       font-size: 1.5rem;
@@ -68,7 +66,7 @@ export const Title = styled(Typography)`
 export const Subtitle = styled(Typography)`
   &&&{
     color: #909295;
-    font-size:  1.9rem;
+    font-size:  1.7rem;
     overflow: hidden; 
     white-space: nowrap;
 

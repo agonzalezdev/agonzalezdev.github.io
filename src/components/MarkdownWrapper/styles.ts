@@ -5,26 +5,29 @@ import { BackgroundColor } from "./../../theme/index";
 
 
 export const MarkdownWrapperContainer = styled.div`
-  height: 94vh;
+  height: 85vh;
   background: ${BackgroundColor};
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0px 6px;
-  overflow-y: scroll;
   flex-direction: column;  
   justify-content: flex-start;
 
 
   @media (max-width: 768px){
-        height: 100%
-    }
+        height: 98%;
+  }
 `
 export const MarkdownWrapperContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  height: 100%;
+  @media (max-width: 768px){
+        font-size: 0.8rem;
+  }
 `
 
 export const MarkdownTitle = styled.span`

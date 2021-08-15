@@ -5,27 +5,32 @@ import { FaCodeBranch } from 'react-icons/fa'
 import { BackgroundColor, mainIconColor } from "../../theme/index"
 
 export const LoadingWrapper = styled.div`
-    width: 100%;
-    height: 94vh;
+    width: 98%;
+    height: 100%;
     background: ${BackgroundColor};
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 0px 6px;
     overflow-y: scroll;
     flex-direction: column;  
     justify-content: flex-start;
     color: white;
+    align-items: flex-start;
 
-  @media (max-width: 768){
+    @media (max-width: 768px){
+        font-size: 0.8rem;
     }
 `
 
 export const FakeEditorWrapper = styled.pre`
+    display: flex;
+    flex-direction: column;
     color: rgb(248, 248, 242);
     background: rgb(43, 43, 43);
     font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
     text-align: left;
+    width: 100%;
+    height: 85vh;
     white-space: pre;
     word-spacing: normal;
     word-break: normal;
@@ -35,15 +40,11 @@ export const FakeEditorWrapper = styled.pre`
     hyphens: none;
     padding: 1em 0em;
     margin: 0.2em 0px;
-    overflow: auto;
     border-radius: 0.3em;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    height: 94vh;
+    overflow: inherit;
 
-  @media screen and (max-width: 768){
-        height: 100%
+  @media (max-width: 768){
+        height: 98%;
     }
 `
 

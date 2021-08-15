@@ -65,3 +65,12 @@ export const TopBarTab = styled(Link)`
 export const TopBarTabTag = styled.span`
   margin-left: 7px;
 `
+
+export const TopBarTabContentWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    overflow: auto;
+`;
+

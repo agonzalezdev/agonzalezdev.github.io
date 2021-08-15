@@ -10,10 +10,14 @@ body {
   text-align: left;
   word-spacing: normal;
   word-break: normal;
-  overflow-wrap: normal;
   line-height: 1.5;
   tab-size: 4;
   hyphens: none;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  position: fixed;
+  height: 100%;
+  width: 100%;
 }
 
 .App {
@@ -24,13 +28,6 @@ body {
 }
 
 #root {
-}
-
-html,
-body {
-  margin: 0;
-  overflow: hidden;
-  -webkit-tap-highlight-color: transparent;
   height: 100%;
 }
 
