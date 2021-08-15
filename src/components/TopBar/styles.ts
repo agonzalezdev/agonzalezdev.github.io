@@ -10,7 +10,8 @@ import { ActiveTab, InactiveTab, TopBarGray } from '../../theme';
 
 export const TopBarTabWrapper = styled.div`
   display: flex;
-  height: 45px;
+  height: 45px;  
+  min-width: 120% !important;
 `;
 
 

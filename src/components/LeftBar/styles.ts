@@ -18,6 +18,13 @@ export const LeftBarWrapper = styled.div`
     height: 100vh;
 `
 
+export const LeftBarContainer = styled.div`
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+`
 
 const baseLeftBarButtonStyles = css`
     color: ${mainIconColor};
@@ -34,6 +41,9 @@ export const LeftBarButton = styled.div`
 
 export const LeftBarHomeButton = styled(Link)`
     margin-top: 2vh;
+    display: block;
+    position: absolute;
+    top: 0;
     ${baseLeftBarButtonStyles}
 `;
 
@@ -42,15 +52,13 @@ export const OptionsButton = styled(GoSettings)`
     color: ${mainIconColor};
     cursor: pointer;
     transition: color 100ms ease;
-    margin-bottom: 30px;
     font-size: 1.8rem;
-    margin-top: 1vh;
-    display: flex;
-    padding: 10px 0;
-    align-items: center;
-    flex-direction: column;
+    padding: 0px 0;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 35px;
+    display: block;
     @media (max-width: 768px){
-        padding: 0px 0;
     }
 `
 

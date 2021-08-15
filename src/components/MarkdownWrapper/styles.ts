@@ -5,7 +5,6 @@ import { BackgroundColor } from "./../../theme/index";
 
 
 export const MarkdownWrapperContainer = styled.div`
-  height: 85vh;
   background: ${BackgroundColor};
   display: flex;
   justify-content: center;
@@ -13,6 +12,8 @@ export const MarkdownWrapperContainer = styled.div`
   padding: 0px 6px;
   flex-direction: column;  
   justify-content: flex-start;
+  min-height: 85vh;
+  max-height: 90vh;
 
 
   @media (max-width: 768px){
@@ -26,7 +27,7 @@ export const MarkdownWrapperContent = styled.div`
   width: 100%;
   height: 100%;
   @media (max-width: 768px){
-        font-size: 0.8rem;
+        font-size: 0.7rem;
   }
 `
 

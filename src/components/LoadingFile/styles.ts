@@ -16,6 +16,13 @@ export const LoadingWrapper = styled.div`
     justify-content: flex-start;
     color: white;
     align-items: flex-start;
+    
+    -webkit-transition: all 0.5s ease 0.5s; 
+    -moz-transition: all 0.5s ease 0.5s;
+    -o-transition: all 0.5s ease 0.5s; 
+    -ms-transition: all 0.5s ease 0.5s; 
+    transition: all 0.5s ease 0.5s;
+    transition: opacity 1s ease-out;
 
     @media (max-width: 768px){
         font-size: 0.8rem;
@@ -30,7 +37,6 @@ export const FakeEditorWrapper = styled.pre`
     font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
     text-align: left;
     width: 100%;
-    height: 85vh;
     white-space: pre;
     word-spacing: normal;
     word-break: normal;
@@ -43,9 +49,6 @@ export const FakeEditorWrapper = styled.pre`
     border-radius: 0.3em;
     overflow: inherit;
 
-  @media (max-width: 768){
-        height: 98%;
-    }
 `
 
 export const FakeEditorWrapperLine = styled.code`

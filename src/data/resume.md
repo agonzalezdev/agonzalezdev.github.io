@@ -4,27 +4,59 @@
 I'm a full stack developer that loves coding and always is looking for new challenges.
 Since I was a child, I have always been passionate about technology, and it is what I like to do the most.
 
-## Currently
-Im Fullstack Developer at Tiendeo Web Marketing!
+## Currently 👨🏻‍💻
+Im Fullstack Developer at Tiendeo Web Marketing! 
 
-### Specialized in
-Backend in .NET Core & NodeJS. Backend in .NET Core & NodeJS. Backend in .NET Core & NodeJS. Backend in .NET Core & NodeJS.
-Backend in .NET Core & NodeJS.
-Backend in .NET Core & NodeJS. Backend in .NET Core & NodeJS. Backend in .NET Core & NodeJS. Backend in .NET Core & NodeJS.
+## Specialized in 🎯
+Backend: .NET, .NET Core & NodeJS.
+Frontend: Javascript, React, Typescript, Redux, CSS
 
-## Education
-`2014-2017`
+## Occupation 👷‍♂️
+  # [2019 - NOW] Tiendeo Web Marketing 
+  - .NET Core 3+ backend applications
+  - Cloud microservices integrations  
+  - DI, TDD, MVC, SOLID
+  - ReactJS & TS frontend applications
+  - Redux, sass, styled-components
+  - Google Vision API as OCR
+  - Using RabbitMQ as message protocol
+  - Using Jenkins as CI/CD software
+  - Docker containers & images
+  - Kubernetes and Kubectl
+  - PGSQL script and migration
+  - Optimized SQL queries & SP
+  - Docker & K8s YAML templates
+  - Git as version control
+  - Bash scripting
+  - Jira as work management software
+  - Agile & Scrum methodology
 
-**Superior Grade in Web Developing**
-**Bemen3**
+  # [2017 - 2019] Ulbe Group Consulting
+  - .NET Framework backend applications
+  - .NET Framework MVC ERP project 
+  - Angular web applications
+  - EntityFramework ORM
+  - HTML + Javascript + CSS/LESS project
 
-## Occupation
+  # [2016 - 2017] T2 Study Wealth Management
+  - Internship
+  - PHP projects and mantainance
+  - VisualBasic .NET, WPF applications
+  - TFS as version control
 
-`1600`
-**Royal Mint**, London
+  # [2016 - 2016] Burras Motorcycles
+  - Internship
+  - Web development
+  - System admin
 
-- Warden
-- Minted coins
+## Education 📐
+  `2014-2017` 
+  *Superior Grade > Mobile Apps Developing*
+  *Superior Grade > Web Developing*
 
-`1600`
-**Lucasian professor of Mathematics**, Cambridge University
+  `2012-2014`
+  *Medium Grade > Tech systems and networks*
+
+  `2015-NOW`
+  *Udemy multiple courses*
+  *Frontend masters multiple courses*

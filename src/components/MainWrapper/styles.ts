@@ -30,6 +30,7 @@ export const MainContainer = styled(Box)`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
+  align-items: flex-start;
   position: relative;
   z-index: 1;
 
@@ -46,8 +47,9 @@ export const MainContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20vh;
   @media (max-width: ${768}px) {
-    top: 20%;
+    margin-top: 9vh;
   } 
 `
 

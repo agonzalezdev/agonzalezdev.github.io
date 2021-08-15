@@ -6,10 +6,11 @@ import { useAppSelector } from "../../app/hooks"
 const LoadingFile = ({ show }) => {
 
     const LoadingMessages = [
-        "Loading data..",
+        "Requesting data..",
         "Fetching from the server..",
         "Reading file..",
-        "Opening file.."
+        "Opening file..",
+        "Loading data.."
     ]
 
 

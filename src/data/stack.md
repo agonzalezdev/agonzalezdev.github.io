@@ -1,12 +1,11 @@
-### Tech skills
-
+### Tech skills 🦾
 - Backend Development ( +4 yrs exp)
 - Frontend Development ( +2 yrs exp)
-- Responsive Design
-- SQL queries
+- SQL & NoSQL Databases
+- Docker & K8s
+- Team player
 
-### Programming languages
-
+### Programming languages ✍
 - Most value:
   - C#
     - .NET Framework 3+
@@ -16,20 +15,21 @@
     - React.js
   - TypeScript
   - Docker
+  - RabbitMQ
 - Others:
   - PHP
 
-### Other tech knowledges
-
+### Other tech knowledges ✨
 - BBDD:
   - PostgreSQL
   - MSSQL
   - MySQL
   - Redis
-- GraphQL
-- Docker containers
+  - GraphQL
+- Docker
 - Kubernetes
 - Git
+- Bash script
 - AWS
   - S3
 - Google Api
@@ -39,11 +39,10 @@
 - API Rest
 - JSON
 - YAML
-- KubeCTL
 
 ### Personal interests 👨🏻‍💻
-
-- Tech
-- Motor
-- Music all day
-- Videogames
+- Tech 👨🏻‍💻
+- Motor 🚘
+- Music all day 🎶
+- Videogames 🎮
+- Blockchain 📈
