@@ -11,7 +11,7 @@ import { ActiveTab, InactiveTab, TopBarGray } from '../../theme';
 export const TopBarTabWrapper = styled.div`
   display: flex;
   height: 45px;  
-  min-width: 120% !important;
+  min-width: 130% !important;
 `;
 
 
@@ -26,7 +26,7 @@ export const CSharpIcon = styled(CSharpIconComponent)`
 export const TopBarWrapper = styled.div`
     top: 0;
     left: 0;
-    width: 100%;
+    width: calc(100% - 50px);
     position: sticky;
     background: ${TopBarGray};
     display: flex;
@@ -35,7 +35,7 @@ export const TopBarWrapper = styled.div`
 
 export const TopBarTab = styled(Link)`
   cursor: pointer;
-  display: 'flex';
+  display: flex;
   font-size: 0.8rem;
   border-top: 4px solid #21252b;
   transition: background, border-color 250ms ease;
@@ -57,6 +57,7 @@ export const TopBarTab = styled(Link)`
   
   &.active{
     background: ${ActiveTab};
+    border-bottom: 1px solid #ffffff85;
   }
 
   @media (max-width: 768){

@@ -18,21 +18,23 @@ export const AvatarImg = withTheme(styled(Avatar)`
   }
 `)
 
-export const MainContainer = styled(Box)`
+export const MainContainer = styled.div`
   height: 100vh;
   background: ${BackgroundColor};
   position: absolute;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 30px;
   align-items: flex-start;
-  position: relative;
   z-index: 1;
+
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   @media (max-width: ${768}px) {
       padding: 0;
@@ -42,7 +44,7 @@ export const MainContainer = styled(Box)`
 
 export const MainContent = styled.div`
   z-index: 3;
-  max-width: 1200px;
+  width: 100%;
   padding: 8px 24px;
   display: flex;
   flex-direction: column;
