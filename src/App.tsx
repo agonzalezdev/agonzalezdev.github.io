@@ -1,22 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.scss';
 import "@fontsource/roboto";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from "./pages/home";
+import LeftBar from './components/LeftBar';
+import BottomBar from './components/BottomBar';
+import TopBar from './components/TopBar';
+import Routes from "./routes"
 
 function App() {
   return (
-    <>
-      {/* <DynamicBackground/> */}
-      {/* <AppRouter/> */}
-      <BrowserRouter>
+    <BrowserRouter>
+      <div className="App">
+        <BottomBar />
+        <LeftBar />
         <Switch>
-          <Route path="/" component={Home} exact />
-          {/* <Route path="/stack" component={Portfolio} exact /> */}
+          <TopBar>
+            {Routes.map(route => (
+              <Route path={route.path} exact component={route.component} />
+            ))}
+          </TopBar>
         </Switch>
-      </BrowserRouter>
-    </>
+      </div>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
