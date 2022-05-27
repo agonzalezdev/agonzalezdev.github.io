@@ -5,14 +5,19 @@ I'm a full stack developer that loves coding and always is looking for new chall
 Since I was a child, I have always been passionate about technology, and it is what I like to do the most.
 
 ## Currently 👨🏻‍💻
-Im Fullstack Developer at Tiendeo Web Marketing! 
+Im Senior Server Engineer at Scopely! 
 
 ## Specialized in 🎯
 Backend: .NET, .NET Core & NodeJS.
 Frontend: Javascript, React, Typescript, Redux, CSS
 
 ## Occupation 👷‍♂️
-  # [2019 - NOW] Tiendeo Web Marketing 
+  # [2021 - NOW] Scopely
+  - Videogames backend
+  - .NET 6 backend applications
+  - AWS Cloud  
+    
+  # [2019 - 2021] Tiendeo Web Marketing 
   - .NET Core 3+ backend applications
   - Cloud microservices integrations  
   - DI, TDD, MVC, SOLID
